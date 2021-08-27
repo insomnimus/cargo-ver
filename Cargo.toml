@@ -10,7 +10,7 @@ tags = [
   "cli", "cargo", "cargo-plugins", "semver",
 ]
 readme = "readme.md"
-repository = "github.com/insomnimus/cargo-ver"
+repository = "https://github.com/insomnimus/cargo-ver"
 
 [dependencies]
 clap = "3.0.0-beta.4"
