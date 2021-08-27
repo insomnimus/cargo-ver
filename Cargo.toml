@@ -1,0 +1,8 @@
+[package]
+name = "cargo-ver"
+version = "0.2.1"
+edition = "2018"
+
+[dependencies]
+clap = '3.0.0-beta.4'
+toml_edit = "0.2.1"
