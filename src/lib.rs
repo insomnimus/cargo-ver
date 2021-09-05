@@ -53,6 +53,7 @@ impl fmt::Display for Version {
 
 impl FromStr for Version {
 	type Err = &'static str;
+
 	fn from_str(s: &str) -> Result<Self, &'static str> {
 		let mut fields = s.splitn(4, '.');
 		let major = fields

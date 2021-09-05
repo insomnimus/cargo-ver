@@ -154,7 +154,7 @@ fn find_toml() -> Result<PathBuf, Box<dyn Error>> {
 			return Ok(dir);
 		}
 		dir.pop();
-		if dir.pop() {
+		if !dir.pop() {
 			return Err("could not locate a `Cargo.toml` in any of the current directory or the parent directories".into());
 		}
 	}
